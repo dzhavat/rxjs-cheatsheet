@@ -4,23 +4,38 @@
 	"description": "RxJS cheatsheet inside VS Code",
 	"version": "0.0.1",
 	"engines": {
-		"vscode": "^1.44.0"
+		"vscode": "^1.40.0"
 	},
 	"categories": [
-		"Other"
+		"Other",
+		"Programming Languages"
 	],
-	"activationEvents": [
-		"onCommand:rxjs-cheatsheet.helloWorld"
+	"keywords": [
+		"RxJS",
+		"Cheatsheet",
+		"Angular",
+		"Vue",
+		"Svelte"
 	],
+	"license": "MIT",
+	"icon": "images/icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dzhavat/rxjs-cheatsheet"
+	},
+	"publisher": "dzhavat",
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "rxjs-cheatsheet.helloWorld",
-				"title": "Hello World"
+				"command": "rxjs.cheatsheet",
+				"title": "Open RxJS Cheatsheet"
 			}
 		]
 	},
+	"activationEvents": [
+		"onCommand:rxjs.cheatsheet"
+	],
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
@@ -30,7 +45,7 @@
 		"test": "node ./out/test/runTest.js"
 	},
 	"devDependencies": {
-		"@types/vscode": "^1.44.0",
+		"@types/vscode": "^1.40.0",
 		"@types/glob": "^7.1.1",
 		"@types/mocha": "^7.0.2",
 		"@types/node": "^13.11.0",
