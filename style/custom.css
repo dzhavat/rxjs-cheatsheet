@@ -1,0 +1,38 @@
+body {
+  font-family: var(--vscode-editor-font-family);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2 {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.container {
+  margin: 20px;
+  width: 26rem;
+}
+
+.row {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  min-height: 42px;
+}
+
+.row + .row {
+  margin-top: 8px;
+}
