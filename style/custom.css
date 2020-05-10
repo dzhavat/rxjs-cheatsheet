@@ -10,29 +10,21 @@ a:hover {
   text-decoration: underline;
 }
 
-main {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
-
-h1, h2 {
-  padding-bottom: 20px;
-  text-align: center;
-}
-
 .container {
-  margin: 20px;
-  width: 26rem;
+  padding: 1.5rem;
 }
 
-.row {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  min-height: 42px;
+.item {
+  margin-bottom: 2.25rem;
 }
 
-.row + .row {
-  margin-top: 8px;
+img {
+  background-color: white;
+  border-radius: 4px;
+  max-width: 100%;
+  padding: 0.5rem;
+}
+
+.center {
+  text-align: center;
 }
