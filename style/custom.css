@@ -10,8 +10,9 @@ a:hover {
   text-decoration: underline;
 }
 
-.container {
-  padding: 1.5rem;
+main,
+footer {
+  padding: 1rem 1.5rem;
 }
 
 .row {
