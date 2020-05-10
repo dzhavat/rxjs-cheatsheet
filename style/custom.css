@@ -14,8 +14,17 @@ a:hover {
   padding: 1.5rem;
 }
 
-.item {
+.row {
   margin-bottom: 2.25rem;
+}
+
+.row h2 {
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid rgba(255, 165, 0, 0.5);
+}
+
+h3 {
+  margin-top: 1.75rem;
 }
 
 img {
