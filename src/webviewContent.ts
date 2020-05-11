@@ -17,6 +17,7 @@ export function getWebviewContent(stylePath: Uri, imagesPath: Uri) {
 	<body>
 		<main>
 			<h1 class="center">RxJS Cheatsheet</h1>
+			<p class="center">Based on v6.5.5.</p>
 
 			<h2 class="center">Creation Functions</h2>
 
@@ -73,6 +74,26 @@ export function getWebviewContent(stylePath: Uri, imagesPath: Uri) {
 			<h2 class="center">Operators</h2>
 
 			<div class="row">
+				<h2>concatMap (<a href="https://rxjs.dev/api/operators/concatMap" target="_blank">Docs</a>)</h2>
+
+				<h3>How to use</h3>
+				<pre><code>import { concatMap } from 'rxjs/operators';</code></pre>
+
+				<h3>Marble diagram</h3>
+				<img src="${imagesPath}/concatMap.png" alt="Marble diagram" />
+			</div>
+
+			<div class="row">
+				<h2>delay (<a href="https://rxjs.dev/api/operators/delay" target="_blank">Docs</a>)</h2>
+
+				<h3>How to use</h3>
+				<pre><code>import { delay } from 'rxjs/operators';</code></pre>
+
+				<h3>Marble diagram</h3>
+				<img src="${imagesPath}/delay.png" alt="Marble diagram" />
+			</div>
+
+			<div class="row">
 				<h2>filter (<a href="https://rxjs.dev/api/operators/filter" target="_blank">Docs</a>)</h2>
 
 				<h3>How to use</h3>
@@ -90,6 +111,36 @@ export function getWebviewContent(stylePath: Uri, imagesPath: Uri) {
 
 				<h3>Marble diagram</h3>
 				<img src="${imagesPath}/map.png" alt="Marble diagram" />
+			</div>
+
+			<div class="row">
+				<h2>mergeMap (<a href="https://rxjs.dev/api/operators/mergeMap" target="_blank">Docs</a>)</h2>
+
+				<h3>How to use</h3>
+				<pre><code>import { mergeMap } from 'rxjs/operators';</code></pre>
+
+				<h3>Marble diagram</h3>
+				<img src="${imagesPath}/mergeMap.png" alt="Marble diagram" />
+			</div>
+
+			<div class="row">
+				<h2>switchMap (<a href="https://rxjs.dev/api/operators/switchMap" target="_blank">Docs</a>)</h2>
+
+				<h3>How to use</h3>
+				<pre><code>import { switchMap } from 'rxjs/operators';</code></pre>
+
+				<h3>Marble diagram</h3>
+				<img src="${imagesPath}/switchMap.png" alt="Marble diagram" />
+			</div>
+
+			<div class="row">
+				<h2>take (<a href="https://rxjs.dev/api/operators/take" target="_blank">Docs</a>)</h2>
+
+				<h3>How to use</h3>
+				<pre><code>import { take } from 'rxjs/operators';</code></pre>
+
+				<h3>Marble diagram</h3>
+				<img src="${imagesPath}/take.png" alt="Marble diagram" />
 			</div>
 
 			<div class="row">
