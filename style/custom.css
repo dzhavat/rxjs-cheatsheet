@@ -1,3 +1,7 @@
+:root {
+  --border-radius: 4px;
+}
+
 body {
   font-family: var(--vscode-editor-font-family);
 }
@@ -10,27 +14,70 @@ a:hover {
   text-decoration: underline;
 }
 
-main,
-footer {
+h1 {
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  margin-bottom: 2rem;
+}
+
+nav:first-of-type {
+  margin-bottom: 2rem;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+li + li {
+  margin-left: 1rem;
+}
+
+.rxjs,
+section > h2 {
+  color: #d81b60;
+}
+
+main {
   padding: 1rem 1.5rem;
 }
 
-.row {
-  margin-bottom: 2.25rem;
+section {
+  margin-top: 4rem;
+}
+
+.row + .row {
+  margin-top: 2.5rem;
 }
 
 .row h2 {
-  padding-bottom: 0.4rem;
   border-bottom: 1px solid rgba(255, 165, 0, 0.5);
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.4rem;
 }
 
 h3 {
   margin-top: 1.75rem;
 }
 
+pre {
+  border-radius: var(--border-radius);
+  background-color: #424242;
+  font-size: 0.9rem;
+  padding: 0.75rem;
+}
+
+code {
+  color: #f9ac00;
+}
+
 img {
   background-color: white;
-  border-radius: 4px;
+  border-radius: (--border-radius);
   max-width: 100%;
   padding: 0.5rem;
 }
