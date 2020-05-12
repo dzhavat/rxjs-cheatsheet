@@ -15,10 +15,11 @@
 		"Cheatsheet",
 		"Angular",
 		"Vue",
-		"Svelte"
+		"Svelte",
+		"React"
 	],
 	"license": "MIT",
-	"icon": "images/icon.png",
+	"icon": "images/icon.jpg",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/dzhavat/rxjs-cheatsheet"
