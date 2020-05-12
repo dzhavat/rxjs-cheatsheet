@@ -54,10 +54,21 @@ section {
   margin-top: 2.5rem;
 }
 
-.row h2 {
+.header {
+  align-items: center;
   border-bottom: 1px solid rgba(255, 165, 0, 0.5);
+  display: flex;
   margin-bottom: 0.5rem;
   padding-bottom: 0.4rem;
+}
+
+.header h2 {
+  margin: 0px;
+  margin-right: 0.5rem;
+}
+
+.header > span {
+  margin-left: auto;
 }
 
 h3 {

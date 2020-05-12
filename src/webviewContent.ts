@@ -15,7 +15,7 @@ export function getWebviewContent(stylePath: Uri, imagesPath: Uri) {
 	</head>
 
 	<body>
-		<main>
+		<main id="top">
 			<h1 class="center"><span class="rxjs">RxJS</span> Cheatsheet</h1>
 			<p class="center">Based on v6.5.5.</p>
 
@@ -51,8 +51,12 @@ export function getWebviewContent(stylePath: Uri, imagesPath: Uri) {
 			<section>
 				<h2>Creation Functions</h2>
 
-				<div class="row">
-					<h2 id="concat">concat (<a href="https://rxjs.dev/api/index/function/concat" target="_blank">Docs</a>)</h2>
+				<div id="concat" class="row">
+					<div class="header">
+						<h2>concat</h2>
+						(<a href="https://rxjs.dev/api/index/function/concat" target="_blank">Docs</a>)
+						<span><a href="#top" title="Back to top">Top</a></span>
+					</div>
 
 					<h3>How to import</h3>
 					<pre><code>import { concat } from 'rxjs';</code></pre>
@@ -62,7 +66,11 @@ export function getWebviewContent(stylePath: Uri, imagesPath: Uri) {
 				</div>
 
 				<div id="from" class="row">
-					<h2>from (<a href="https://rxjs.dev/api/index/function/from" target="_blank">Docs</a>)</h2>
+					<div class="header">
+						<h2>from</h2>
+						(<a href="https://rxjs.dev/api/index/function/from" target="_blank">Docs</a>)
+						<span><a href="#top" title="Back to top">Top</a></span>
+					</div>
 
 					<h3>How to import</h3>
 					<pre><code>import { from } from 'rxjs';</code></pre>
@@ -72,8 +80,12 @@ export function getWebviewContent(stylePath: Uri, imagesPath: Uri) {
 				</div>
 
 				<div id="fromEvent" class="row">
-					<h2>fromEvent (<a href="https://rxjs.dev/api/index/function/fromEvent" target="_blank">Docs</a>)</h2>
-
+					<div class="header">
+						<h2>fromEvent</h2>
+						(<a href="https://rxjs.dev/api/index/function/fromEvent" target="_blank">Docs</a>)
+						<span><a href="#top" title="Back to top">Top</a></span>
+					</div>
+					
 					<h3>How to import</h3>
 					<pre><code>import { fromEvent } from 'rxjs';</code></pre>
 
@@ -82,7 +94,11 @@ export function getWebviewContent(stylePath: Uri, imagesPath: Uri) {
 				</div>
 
 				<div id="merge" class="row">
-					<h2>merge (<a href="https://rxjs.dev/api/index/function/merge" target="_blank">Docs</a>)</h2>
+					<div class="header">
+						<h2>merge</h2>
+						(<a href="https://rxjs.dev/api/index/function/merge" target="_blank">Docs</a>)
+						<span><a href="#top" title="Back to top">Top</a></span>
+					</div>
 
 					<h3>How to import</h3>
 					<pre><code>import { merge } from 'rxjs';</code></pre>
@@ -92,7 +108,11 @@ export function getWebviewContent(stylePath: Uri, imagesPath: Uri) {
 				</div>
 
 				<div id="of" class="row">
-					<h2>of (<a href="https://rxjs.dev/api/index/function/of" target="_blank">Docs</a>)</h2>
+					<div class="header">
+						<h2>of</h2>
+						(<a href="https://rxjs.dev/api/index/function/of" target="_blank">Docs</a>)
+						<span><a href="#top" title="Back to top">Top</a></span>
+					</div>
 
 					<h3>How to import</h3>
 					<pre><code>import { of } from 'rxjs';</code></pre>
@@ -106,7 +126,11 @@ export function getWebviewContent(stylePath: Uri, imagesPath: Uri) {
 				<h2>Operators</h2>
 
 				<div id="concatMap" class="row">
-					<h2>concatMap (<a href="https://rxjs.dev/api/operators/concatMap" target="_blank">Docs</a>)</h2>
+					<div class="header">
+						<h2>concatMap</h2>
+						(<a href="https://rxjs.dev/api/operators/concatMap" target="_blank">Docs</a>)
+						<span><a href="#top" title="Back to top">Top</a></span>
+					</div>
 
 					<h3>How to import</h3>
 					<pre><code>import { concatMap } from 'rxjs/operators';</code></pre>
@@ -116,7 +140,11 @@ export function getWebviewContent(stylePath: Uri, imagesPath: Uri) {
 				</div>
 
 				<div id="delay" class="row">
-					<h2>delay (<a href="https://rxjs.dev/api/operators/delay" target="_blank">Docs</a>)</h2>
+					<div class="header">
+						<h2>delay</h2>
+						(<a href="https://rxjs.dev/api/operators/delay" target="_blank">Docs</a>)
+						<span><a href="#top" title="Back to top">Top</a></span>
+					</div>
 
 					<h3>How to import</h3>
 					<pre><code>import { delay } from 'rxjs/operators';</code></pre>
@@ -126,7 +154,11 @@ export function getWebviewContent(stylePath: Uri, imagesPath: Uri) {
 				</div>
 
 				<div id="filter" class="row">
-					<h2>filter (<a href="https://rxjs.dev/api/operators/filter" target="_blank">Docs</a>)</h2>
+					<div class="header">
+						<h2>filter</h2>
+						(<a href="https://rxjs.dev/api/operators/filter" target="_blank">Docs</a>)
+						<span><a href="#top" title="Back to top">Top</a></span>
+					</div>
 
 					<h3>How to import</h3>
 					<pre><code>import { filter } from 'rxjs/operators';</code></pre>
@@ -136,7 +168,11 @@ export function getWebviewContent(stylePath: Uri, imagesPath: Uri) {
 				</div>
 
 				<div id="map" class="row">
-					<h2>map (<a href="https://rxjs.dev/api/operators/map" target="_blank">Docs</a>)</h2>
+					<div class="header">
+						<h2>map</h2>
+						(<a href="https://rxjs.dev/api/operators/map" target="_blank">Docs</a>)
+						<span><a href="#top" title="Back to top">Top</a></span>
+					</div>
 
 					<h3>How to import</h3>
 					<pre><code>import { map } from 'rxjs/operators';</code></pre>
@@ -146,7 +182,11 @@ export function getWebviewContent(stylePath: Uri, imagesPath: Uri) {
 				</div>
 
 				<div id="mergeMap" class="row">
-					<h2>mergeMap (<a href="https://rxjs.dev/api/operators/mergeMap" target="_blank">Docs</a>)</h2>
+					<div class="header">
+						<h2>mergeMap</h2>
+						(<a href="https://rxjs.dev/api/operators/mergeMap" target="_blank">Docs</a>)
+						<span><a href="#top" title="Back to top">Top</a></span>
+					</div>
 
 					<h3>How to import</h3>
 					<pre><code>import { mergeMap } from 'rxjs/operators';</code></pre>
@@ -156,7 +196,11 @@ export function getWebviewContent(stylePath: Uri, imagesPath: Uri) {
 				</div>
 
 				<div id="switchMap" class="row">
-					<h2>switchMap (<a href="https://rxjs.dev/api/operators/switchMap" target="_blank">Docs</a>)</h2>
+					<div class="header">
+						<h2>switchMap</h2>
+						(<a href="https://rxjs.dev/api/operators/switchMap" target="_blank">Docs</a>)
+						<span><a href="#top" title="Back to top">Top</a></span>
+					</div>
 
 					<h3>How to import</h3>
 					<pre><code>import { switchMap } from 'rxjs/operators';</code></pre>
@@ -166,7 +210,11 @@ export function getWebviewContent(stylePath: Uri, imagesPath: Uri) {
 				</div>
 
 				<div id="take" class="row">
-					<h2>take (<a href="https://rxjs.dev/api/operators/take" target="_blank">Docs</a>)</h2>
+					<div class="header">
+						<h2>take</h2>
+						(<a href="https://rxjs.dev/api/operators/take" target="_blank">Docs</a>)
+						<span><a href="#top" title="Back to top">Top</a></span>
+					</div>
 
 					<h3>How to import</h3>
 					<pre><code>import { take } from 'rxjs/operators';</code></pre>
@@ -176,7 +224,11 @@ export function getWebviewContent(stylePath: Uri, imagesPath: Uri) {
 				</div>
 
 				<div id="tap" class="row">
-					<h2>tap (<a href="https://rxjs.dev/api/operators/tap" target="_blank">Docs</a>)</h2>
+					<div class="header">
+						<h2>tap</h2>
+						(<a href="https://rxjs.dev/api/operators/tap" target="_blank">Docs</a>)
+						<span><a href="#top" title="Back to top">Top</a></span>
+					</div>
 
 					<h3>How to import</h3>
 					<pre><code>import { tap } from 'rxjs/operators';</code></pre>
