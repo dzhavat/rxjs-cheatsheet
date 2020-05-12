@@ -10,7 +10,9 @@ The cheatsheet can be opened in only one way:
 
 ## Demo
 
-## Ideas for improvements?
+![Demo](/images/demo.gif)
+
+## Ideas for improvements
 
 All ideas and suggestions are welcome. Please open an issue.
 
