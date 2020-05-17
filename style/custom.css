@@ -33,8 +33,13 @@ ul {
   padding-inline-start: 0px;
 }
 
-li + li {
-  margin-left: 1rem;
+li {
+  line-height: 2;
+  margin-bottom: 0.5rem;
+}
+
+li:not(:last-child) {
+  margin-right: 1rem;
 }
 
 .rxjs,
