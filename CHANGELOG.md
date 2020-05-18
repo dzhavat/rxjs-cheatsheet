@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1] - 2020-05-18
+
+### Fixed
+
+* Move `forkJoin` to the right section
+* Fix link to `forkJoin`
+
 ## [1.0.0] - 2020-05-18
 
 ### Added
