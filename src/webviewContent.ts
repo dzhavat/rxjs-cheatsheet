@@ -171,7 +171,7 @@ export function getWebviewContent(cspSource: string, stylePath: Uri, imagesPath:
 				<div id="forkJoin" class="row">
 					<div class="header">
 						<h2>forkJoin</h2>
-						(<a href="https://rxjs.dev/api/operators/forkJoin" target="_blank">Docs</a>)
+						(<a href="https://rxjs.dev/api/index/function/forkJoin" target="_blank">Docs</a>)
 						<span><a href="#top" title="Back to top">Top</a></span>
 					</div>
 
