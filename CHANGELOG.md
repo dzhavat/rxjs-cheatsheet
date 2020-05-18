@@ -1,9 +1,9 @@
-# Change Log
+# Changelog
 
-All notable changes to the "rxjs-cheatsheet" extension will be documented in this file.
+## [1.0.0] - 2020-05-18
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+### Added
 
-## [Unreleased]
+The cheatsheet can be opened in only one way:
 
-- Initial release
+* Press `Ctrl+Shift+P` (Win, Linux) / `Cmd+Shift+P` (Mac) and search for the `Open RxJS Cheatsheet` command.
