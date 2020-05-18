@@ -26,6 +26,7 @@ export function getWebviewContent(cspSource: string, stylePath: Uri, imagesPath:
 				<nav>
 					<ul>
 						<li><a href="#concat" title="concat">concat</a></li>
+						<li><a href="#forkJoin" title="forkJoin">forkJoin</a></li>
 						<li><a href="#from" title="from">from</a></li>
 						<li><a href="#fromEvent" title="fromEvent">fromEvent</a></li>
 						<li><a href="#merge" title="merge">merge</a></li>
@@ -39,7 +40,6 @@ export function getWebviewContent(cspSource: string, stylePath: Uri, imagesPath:
 						<li><a href="#concatMap" title="concatMap">concatMap</a></li>
 						<li><a href="#delay" title="delay">delay</a></li>
 						<li><a href="#filter" title="filter">filter</a></li>
-						<li><a href="#forkJoin" title="forkJoin">forkJoin</a></li>
 						<li><a href="#map" title="map">map</a></li>
 						<li><a href="#mergeMap" title="mergeMap">mergeMap</a></li>
 						<li><a href="#switchMap" title="switchMap">switchMap</a></li>
@@ -64,6 +64,20 @@ export function getWebviewContent(cspSource: string, stylePath: Uri, imagesPath:
 
 					<h3>Marble diagram</h3>
 					<img src="${imagesPath}/concat.png" alt="Marble diagram" />
+				</div>
+
+				<div id="forkJoin" class="row">
+					<div class="header">
+						<h2>forkJoin</h2>
+						(<a href="https://rxjs.dev/api/index/function/forkJoin" target="_blank">Docs</a>)
+						<span><a href="#top" title="Back to top">Top</a></span>
+					</div>
+
+					<h3>How to import</h3>
+					<pre><code>import { forkJoin } from 'rxjs';</code></pre>
+
+					<h3>Marble diagram</h3>
+					<img src="${imagesPath}/forkJoin.png" alt="Marble diagram" />
 				</div>
 
 				<div id="from" class="row">
@@ -166,20 +180,6 @@ export function getWebviewContent(cspSource: string, stylePath: Uri, imagesPath:
 
 					<h3>Marble diagram</h3>
 					<img src="${imagesPath}/filter.png" alt="Marble diagram" />
-				</div>
-
-				<div id="forkJoin" class="row">
-					<div class="header">
-						<h2>forkJoin</h2>
-						(<a href="https://rxjs.dev/api/index/function/forkJoin" target="_blank">Docs</a>)
-						<span><a href="#top" title="Back to top">Top</a></span>
-					</div>
-
-					<h3>How to import</h3>
-					<pre><code>import { forkJoin } from 'rxjs/operators';</code></pre>
-
-					<h3>Marble diagram</h3>
-					<img src="${imagesPath}/forkJoin.png" alt="Marble diagram" />
 				</div>
 
 				<div id="map" class="row">
