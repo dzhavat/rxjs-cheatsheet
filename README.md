@@ -1,4 +1,4 @@
-# RxJS Cheatsheet
+# RxJS Cheatsheet ([link](https://marketplace.visualstudio.com/items?itemName=dzhavat.rxjs-cheatsheet))
 
 VS Code extension that lets you open an RxJS cheatsheet that contains import paths and marble diagrams of various Observable-creation functions and operators.
 
