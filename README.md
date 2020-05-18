@@ -1,6 +1,6 @@
 # RxJS Cheatsheet
 
-VS Code extension that lets you open an RxJS cheatsheet that contains import paths and marble diagrams of various Observable creation functions and operators.
+VS Code extension that lets you open an RxJS cheatsheet that contains import paths and marble diagrams of various Observable-creation functions and operators.
 
 ## Features
 
