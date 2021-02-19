@@ -4,7 +4,7 @@
 	"description": "RxJS cheatsheet inside VS Code",
 	"version": "1.0.1",
 	"engines": {
-		"vscode": "^1.40.0"
+		"vscode": "^1.47.0"
 	},
 	"categories": [
 		"Other",
