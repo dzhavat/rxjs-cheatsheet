@@ -8,6 +8,12 @@ The cheatsheet can be opened in only one way:
 
 * Press `Ctrl+Shift+P` (Win, Linux) / `Cmd+Shift+P` (Mac) and search for the `Open RxJS Cheatsheet` command.
 
+## Support my work
+
+If you find this extension useful and would like to support my work, you can [buy me a cup of tea](https://www.buymeacoffee.com/dzhavat). Thank you!
+
+[![Buy Me A Cup Of Tea](./images/buy-me-a-cup-of-tea.png)](https://www.buymeacoffee.com/dzhavat)
+
 ## Demo
 
 ![Demo](/images/demo.gif)
