@@ -17,7 +17,7 @@ export function getWebviewContent(cspSource: string, stylePath: Uri, imagesPath:
 	<body>
 		<main id="top">
 			<h1 class="center"><span class="rxjs">RxJS</span> Cheatsheet</h1>
-			<p class="center">Based on v6.5.5.</p>
+			<p class="center">Based on v7.0.0.</p>
 
 			<div class="toc">
 				<h3>Jump to</h3>
