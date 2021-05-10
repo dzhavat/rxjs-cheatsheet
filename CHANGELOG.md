@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/dzhavat/rxjs-cheatsheet/compare/1.0.2...1.0.3) - 2021-05-11
+
+### Changed
+
+- Set the minimum supported VS Code version to 1.51.0
+- Update dependencies
+
 ## [1.0.2](https://github.com/dzhavat/rxjs-cheatsheet/compare/1.0.1...1.0.2) - 2021-02-20
 
 ### Fixed
