@@ -5,28 +5,25 @@ import { getWebviewContent } from './webviewContent';
 export function activate(context: vscode.ExtensionContext) {
 
 	const disposableCommand = vscode.commands.registerCommand('rxjs.cheatsheet', () => {
-		const styleRoot = vscode.Uri.file(join(context.extensionPath, 'style'));
-		const imagesRoot = vscode.Uri.file(join(context.extensionPath, 'images'));
+		const assetsRoot = vscode.Uri.file(join(context.extensionPath, 'assets'));
 
 		const panel = vscode.window.createWebviewPanel(
 			'rxjsCheatsheet',
 			'RxJS Cheatsheet',
 			vscode.ViewColumn.Beside, {
 				localResourceRoots: [
-					styleRoot,
-					imagesRoot
+					assetsRoot,
 				]
 			}
 		);
 
-		const stylePath = panel.webview.asWebviewUri(styleRoot);
-		const imagesPath = panel.webview.asWebviewUri(imagesRoot);
+		const assetsPath = panel.webview.asWebviewUri(assetsRoot);
 		const cspSource = panel.webview.cspSource;
 
-		panel.webview.html = getWebviewContent(cspSource, stylePath, imagesPath);
+		panel.webview.html = getWebviewContent(cspSource, assetsPath);
 	});
 
 	context.subscriptions.push(disposableCommand);
 }
 
-export function deactivate() {}
+export function deactivate() { }

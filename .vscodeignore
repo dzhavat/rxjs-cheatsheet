@@ -7,5 +7,5 @@ src/**
 **/.eslintrc.json
 **/*.map
 **/*.ts
-images/demo.gif
-images/buy-me-a-cup-of-tea.png
+**/images/demo.gif
+**/images/buy-me-a-cup-of-tea.png

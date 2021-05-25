@@ -1,6 +1,6 @@
 import { Uri } from "vscode";
 
-export function getWebviewContent(cspSource: string, stylePath: Uri, imagesPath: Uri) {
+export function getWebviewContent(cspSource: string, assetsPath: Uri) {
 	return `<!doctype html>
 	<html lang="en">
 
@@ -11,7 +11,7 @@ export function getWebviewContent(cspSource: string, stylePath: Uri, imagesPath:
 
 		<title>RxJS Cheatsheet</title>
 
-		<link rel="stylesheet" href="${stylePath}/custom.css">
+		<link href="${assetsPath}/style/custom.css" rel="stylesheet">
 	</head>
 
 	<body>
@@ -63,7 +63,7 @@ export function getWebviewContent(cspSource: string, stylePath: Uri, imagesPath:
 					<pre><code>import { concat } from 'rxjs';</code></pre>
 
 					<h3>Marble diagram</h3>
-					<img src="${imagesPath}/concat.png" alt="Marble diagram" />
+					<img src="${assetsPath}/images/concat.png" alt="Marble diagram" />
 				</div>
 
 				<div id="forkJoin" class="row">
@@ -77,7 +77,7 @@ export function getWebviewContent(cspSource: string, stylePath: Uri, imagesPath:
 					<pre><code>import { forkJoin } from 'rxjs';</code></pre>
 
 					<h3>Marble diagram</h3>
-					<img src="${imagesPath}/forkJoin.png" alt="Marble diagram" />
+					<img src="${assetsPath}/images/forkJoin.png" alt="Marble diagram" />
 				</div>
 
 				<div id="from" class="row">
@@ -91,7 +91,7 @@ export function getWebviewContent(cspSource: string, stylePath: Uri, imagesPath:
 					<pre><code>import { from } from 'rxjs';</code></pre>
 
 					<h3>Marble diagram</h3>
-					<img src="${imagesPath}/from.png" alt="Marble diagram" />
+					<img src="${assetsPath}/images/from.png" alt="Marble diagram" />
 				</div>
 
 				<div id="fromEvent" class="row">
@@ -105,7 +105,7 @@ export function getWebviewContent(cspSource: string, stylePath: Uri, imagesPath:
 					<pre><code>import { fromEvent } from 'rxjs';</code></pre>
 
 					<h3>Marble diagram</h3>
-					<img src="${imagesPath}/fromEvent.png" alt="Marble diagram" />
+					<img src="${assetsPath}/images/fromEvent.png" alt="Marble diagram" />
 				</div>
 
 				<div id="merge" class="row">
@@ -119,7 +119,7 @@ export function getWebviewContent(cspSource: string, stylePath: Uri, imagesPath:
 					<pre><code>import { merge } from 'rxjs';</code></pre>
 
 					<h3>Marble diagram</h3>
-					<img src="${imagesPath}/merge.png" alt="Marble diagram" />
+					<img src="${assetsPath}/images/merge.png" alt="Marble diagram" />
 				</div>
 
 				<div id="of" class="row">
@@ -133,7 +133,7 @@ export function getWebviewContent(cspSource: string, stylePath: Uri, imagesPath:
 					<pre><code>import { of } from 'rxjs';</code></pre>
 
 					<h3>Marble diagram</h3>
-					<img src="${imagesPath}/of.png" alt="Marble diagram" />
+					<img src="${assetsPath}/images/of.png" alt="Marble diagram" />
 				</div>
 			</section>
 
@@ -151,7 +151,7 @@ export function getWebviewContent(cspSource: string, stylePath: Uri, imagesPath:
 					<pre><code>import { concatMap } from 'rxjs/operators';</code></pre>
 
 					<h3>Marble diagram</h3>
-					<img src="${imagesPath}/concatMap.png" alt="Marble diagram" />
+					<img src="${assetsPath}/images/concatMap.png" alt="Marble diagram" />
 				</div>
 
 				<div id="delay" class="row">
@@ -165,7 +165,7 @@ export function getWebviewContent(cspSource: string, stylePath: Uri, imagesPath:
 					<pre><code>import { delay } from 'rxjs/operators';</code></pre>
 
 					<h3>Marble diagram</h3>
-					<img src="${imagesPath}/delay.png" alt="Marble diagram" />
+					<img src="${assetsPath}/images/delay.png" alt="Marble diagram" />
 				</div>
 
 				<div id="filter" class="row">
@@ -179,7 +179,7 @@ export function getWebviewContent(cspSource: string, stylePath: Uri, imagesPath:
 					<pre><code>import { filter } from 'rxjs/operators';</code></pre>
 
 					<h3>Marble diagram</h3>
-					<img src="${imagesPath}/filter.png" alt="Marble diagram" />
+					<img src="${assetsPath}/images/filter.png" alt="Marble diagram" />
 				</div>
 
 				<div id="map" class="row">
@@ -193,7 +193,7 @@ export function getWebviewContent(cspSource: string, stylePath: Uri, imagesPath:
 					<pre><code>import { map } from 'rxjs/operators';</code></pre>
 
 					<h3>Marble diagram</h3>
-					<img src="${imagesPath}/map.png" alt="Marble diagram" />
+					<img src="${assetsPath}/images/map.png" alt="Marble diagram" />
 				</div>
 
 				<div id="mergeMap" class="row">
@@ -207,7 +207,7 @@ export function getWebviewContent(cspSource: string, stylePath: Uri, imagesPath:
 					<pre><code>import { mergeMap } from 'rxjs/operators';</code></pre>
 
 					<h3>Marble diagram</h3>
-					<img src="${imagesPath}/mergeMap.png" alt="Marble diagram" />
+					<img src="${assetsPath}/images/mergeMap.png" alt="Marble diagram" />
 				</div>
 
 				<div id="switchMap" class="row">
@@ -221,7 +221,7 @@ export function getWebviewContent(cspSource: string, stylePath: Uri, imagesPath:
 					<pre><code>import { switchMap } from 'rxjs/operators';</code></pre>
 
 					<h3>Marble diagram</h3>
-					<img src="${imagesPath}/switchMap.png" alt="Marble diagram" />
+					<img src="${assetsPath}/images/switchMap.png" alt="Marble diagram" />
 				</div>
 
 				<div id="take" class="row">
@@ -235,7 +235,7 @@ export function getWebviewContent(cspSource: string, stylePath: Uri, imagesPath:
 					<pre><code>import { take } from 'rxjs/operators';</code></pre>
 
 					<h3>Marble diagram</h3>
-					<img src="${imagesPath}/take.png" alt="Marble diagram" />
+					<img src="${assetsPath}/images/take.png" alt="Marble diagram" />
 				</div>
 
 				<div id="tap" class="row">
@@ -249,7 +249,7 @@ export function getWebviewContent(cspSource: string, stylePath: Uri, imagesPath:
 					<pre><code>import { tap } from 'rxjs/operators';</code></pre>
 
 					<h3>Marble diagram</h3>
-					<img src="${imagesPath}/tap.png" alt="Marble diagram" />
+					<img src="${assetsPath}/images/tap.png" alt="Marble diagram" />
 				</div>
 			</section>
 		</main>
