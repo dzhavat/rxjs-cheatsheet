@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.1.0](https://github.com/dzhavat/rxjs-cheatsheet/compare/1.0.3...1.1.0) - 2021-06-09
+
+### Added
+
+- Usage example for each Observable-creation function and operator
+
+### Changed
+
+- Update dependencies
+
 ## [1.0.3](https://github.com/dzhavat/rxjs-cheatsheet/compare/1.0.2...1.0.3) - 2021-05-11
 
 ### Changed
