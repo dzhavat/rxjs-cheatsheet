@@ -13,8 +13,9 @@ export function activate(context: vscode.ExtensionContext) {
 			vscode.ViewColumn.Beside, {
 				localResourceRoots: [
 					assetsRoot,
-				]
-			}
+				],
+				enableScripts: true
+			},
 		);
 
 		const assetsPath = panel.webview.asWebviewUri(assetsRoot);
