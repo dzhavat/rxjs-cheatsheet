@@ -19,7 +19,7 @@
 		"React"
 	],
 	"license": "MIT",
-	"icon": "images/icon.jpg",
+	"icon": "assets/images/icon.jpg",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/dzhavat/rxjs-cheatsheet"
