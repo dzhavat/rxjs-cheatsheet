@@ -32,8 +32,8 @@
 
 ### Fixed
 
-* Move `forkJoin` to the right section
-* Fix link to `forkJoin`
+- Move `forkJoin` to the right section
+- Fix link to `forkJoin`
 
 ## [1.0.0](https://github.com/dzhavat/rxjs-cheatsheet/releases/tag/1.0.0) - 2020-05-18
 
@@ -41,4 +41,4 @@
 
 The cheatsheet can be opened in only one way:
 
-* Press `Ctrl+Shift+P` (Win, Linux) / `Cmd+Shift+P` (Mac) and search for the `Open RxJS Cheatsheet` command.
+- Press `Ctrl+Shift+P` (Win, Linux) / `Cmd+Shift+P` (Mac) and search for the `Open RxJS Cheatsheet` command.
