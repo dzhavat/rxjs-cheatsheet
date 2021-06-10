@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.1](https://github.com/dzhavat/rxjs-cheatsheet/compare/1.1.0...1.1.1) - 2021-06-10
+
+### Changed
+
+- Update dependencies
+
 ## [1.1.0](https://github.com/dzhavat/rxjs-cheatsheet/compare/1.0.3...1.1.0) - 2021-06-09
 
 ### Added
