@@ -20,7 +20,7 @@ export function getWebviewContent(cspSource: string, assetsPath: Uri): string {
 			<body>
 				<main id="top">
 					<h1 class="center"><span class="rxjs">RxJS</span> Cheatsheet</h1>
-					<p class="center">Based on v7.1.0.</p>
+					<p class="center">Valid for v6.5.0+ and v7.0.0+</p>
 
 					<section class="toc">
 						<h3>Creation Functions</h3>
