@@ -2,7 +2,7 @@
   "name": "rxjs-cheatsheet",
   "displayName": "RxJS Cheatsheet",
   "description": "RxJS cheatsheet inside VS Code",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "engines": {
     "vscode": "^1.58.0"
   },
