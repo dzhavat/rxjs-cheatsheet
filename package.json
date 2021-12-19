@@ -20,6 +20,11 @@
 	],
 	"license": "MIT",
 	"icon": "assets/images/icon.jpg",
+	"capabilities": {
+		"untrustedWorkspaces": {
+			"supported": true
+		}
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/dzhavat/rxjs-cheatsheet"
