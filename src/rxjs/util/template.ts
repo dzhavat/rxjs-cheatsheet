@@ -6,8 +6,8 @@ interface TemplateOptions {
   usageExample: string;
 }
 
-export const template = function(options: TemplateOptions): string {
-  return /*html*/`
+export const template = function (options: TemplateOptions): string {
+  return /*html*/ `
     <div class="header">
       <h2>${options.title}</h2>
       (<a href="${options.docsUrl}" target="_blank">Docs</a>)

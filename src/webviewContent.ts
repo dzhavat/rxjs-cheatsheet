@@ -1,9 +1,9 @@
 import { Uri } from "vscode";
 
-import * as rxjs from './rxjs';
+import * as rxjs from "./rxjs";
 
 export function getWebviewContent(cspSource: string, assetsPath: Uri): string {
-	return /*html*/`
+  return /*html*/ `
 		<!doctype html>
 		<html lang="en">
 			<head>
