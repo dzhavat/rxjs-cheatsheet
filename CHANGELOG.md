@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.2.0](https://github.com/dzhavat/rxjs-cheatsheet/compare/1.1.1...1.2.0) - 2021-12-19
+
+### Added
+
+- Support for Workspace Trust
+
+### Changed
+
+- Set the minimum supported VS Code version to 1.58.0
+- Update dependencies
+
 ## [1.1.1](https://github.com/dzhavat/rxjs-cheatsheet/compare/1.1.0...1.1.1) - 2021-06-10
 
 ### Changed
