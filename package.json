@@ -31,6 +31,9 @@
   },
   "publisher": "dzhavat",
   "main": "./out/extension.js",
+  "vsce": {
+    "githubBranch": "main"
+  },
   "contributes": {
     "commands": [
       {
